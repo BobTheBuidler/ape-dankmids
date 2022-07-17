@@ -6,8 +6,8 @@ from ape.api.networks import LOCAL_NETWORK_NAME
 from ape.exceptions import ProviderError
 from ape.logging import logger
 from ape_geth.providers import AsyncGethProvider, EphemeralGeth, GethNotInstalledError
-from dank_mids import setup_dank_w3
-from multicall.utils import get_async_w3
+from dank_mids import setup_dank_w3  # type: ignore
+from multicall.utils import get_async_w3  # type: ignore
 from web3 import HTTPProvider, Web3
 from web3.gas_strategies.rpc import rpc_gas_price_strategy
 

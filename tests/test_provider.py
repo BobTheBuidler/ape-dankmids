@@ -4,7 +4,7 @@ import pytest
 from ape import Contract, networks
 from ape.exceptions import ProviderNotConnectedError
 from ape.types import ContractLog
-from multicall.utils import await_awaitable
+from multicall.utils import await_awaitable  # type: ignore
 
 from ape_dankmids import DankProvider
 
