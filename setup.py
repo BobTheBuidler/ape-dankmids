@@ -47,7 +47,7 @@ extras_require["dev"] = (
     + extras_require["dev"]
 )
 
-with open("./README") as readme:
+with open("./README.md") as readme:
     long_description = readme.read()
 
 setup(
