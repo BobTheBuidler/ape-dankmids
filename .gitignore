@@ -1,0 +1,11 @@
+env/
+.coverage*
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.pytest_cache/
+ape_dankmids.egg-info/
+.eggs/
+build/
+dist/
+__pycache__
