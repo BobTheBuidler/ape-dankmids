@@ -9,3 +9,4 @@ ape_dankmids.egg-info/
 build/
 dist/
 __pycache__
+.worktrees/
