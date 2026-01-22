@@ -16,4 +16,5 @@ All agents must follow these rules:
 10) Maximize the use of caching in GitHub workflow files to minimize run duration.
 11) Use one of `paths` or `paths-ignore` in every workflow file to make sure workflows only run when required.
 
+12) Replace them with ruff IF possible while ensuring behavior parity.
 Reference: https://www.conventionalcommits.org/en/v1.0.0/
